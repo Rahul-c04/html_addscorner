@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addscorner</title>
+    <link rel="icon" type="image/x-icon" href="Sources0.1/Logo (3).png">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="site-wrapper">
+        <div class="header-index">
+            <header>
+                <div class="container navbar">
+                 <div class="container-nav flex">
+                    <a href="/" class="logo"><img src="Sources0.1/pixelcut-export.png" alt="" class="addscorner-logo"></a>
+                    <button class="navbar-toggler" type="button">
+                        <span class="fa-solid fa-bars"></span>
+                    </button>
+                    <ul class="navbar-nav flex">
+                        <li><a href="/"  class="nav-link">Home</a></li>
+                        <li><a href="/"  class="nav-link">About</a></li>
+                        <li><a href="/"  class="nav-link">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="/" class="nav-link dropdown-toggle">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Store</a></li>
+                            <li><a href="#" class="dropdown-item">FAQ</a></li>
+                            <li><a href="#" class="dropdown-item">Pages</a></li>
+                            <li><a href="#" class="dropdown-item">items</a></li>
+                            <li><a href="#" class="dropdown-item">Rooms</a></li>
+                            <li><a href="#" class="dropdown-item">Contents</a></li>
+                            <li><a href="#" class="dropdown-item">404</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <div class="nav-right flex">
+                     <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
+                     <i class="fa-solid fa-bars"></i>
+                    </div>
+                    </div>
+                </div>
+
+
+                <!--search-->
+                <div id="search-bar">
+                    <div onclick="close_search()" class="btn-hover1">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <form action="#" method="search">
+                        <input type="search" required placeholder="Search...">
+                        <button type="submit" class="btn-hover1">Search</button>
+                    </form>
+                </div>
+            </header>
+
+            <section class="mainbody">
+                <video autoplay loop muted plays-inline class="background-video">
+                    <source src="Sources0.1/video-mp4.mp4" type="video/mp4">
+                </video> 
+                <div class="container">
+                    <div>
+                        <div class="center-data">
+                            <h1>ADDSCORNER</h1>
+                            <h3>Helps to spot your dreams!</h3>
+                            <div class="center-btn flex">
+                                <a href="#" class="btn-hover3">Get in touch</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+        </div>
+    </div>   
+    <script src="script.js"></script>
+</body>
+</html>
